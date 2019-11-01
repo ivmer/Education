@@ -8,6 +8,7 @@ class TreeAVL:
     def height(self):
         return self._height if self else 0
 
+
     def difference(self):
         return self._rightNode.height() if self._rightNode else 0 - self._leftNode.height() if self._leftNode else 0
 
